@@ -31,8 +31,8 @@ install:
 build:
   parallel: true
   
-//before_build:
-//  - luacheck.exe --no-global --no-max-line-length --no-unused-args -qq data
+#before_build:
+#  - luacheck.exe --no-global --no-max-line-length --no-unused-args -qq data
 
 cache:
   - tfs-sdk-3.2 -> appveyor.yml
